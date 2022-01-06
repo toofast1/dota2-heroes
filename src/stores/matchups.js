@@ -14,7 +14,7 @@ function createMatchups() {
           ...obj,
           [matchup.hero_id]: {
             id: matchup.hero_id,
-            win_rate: Number((100 - (matchup.wins / matchup.games_played) * 100).toFixed(2))
+            win_rate: Number((100 * (matchup.wins / matchup.games_played)).toFixed(2))
           }
         }), {})
       }))
