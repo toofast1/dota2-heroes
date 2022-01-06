@@ -10,6 +10,7 @@
 
 <div class="wrapper">
     <h1 class="logo">Dota2 Heroes Advisor</h1>
+    <p>Select the enemy team heroes and get counter heroes suggestions based on professional matches.</p>
     <slot></slot>
 </div>
 
@@ -49,6 +50,14 @@
         letter-spacing: 5px;
         color: #fff;
         text-shadow: 1px 1px 2px #ff4a4a, 0 0 1em #64d4ff, 0 0 0.2em #58ff58;
-        padding: 3rem 0 1rem;
+        padding: 3rem 0 0rem;
+    }
+
+    p {
+        text-align: center;
+        font-family: Roboto, sans-serif;
+        color: #fff;
+        text-shadow: 1px 1px 2px #ff4a4a, 0 0 1em #64d4ff, 0 0 0.2em #58ff58;
+        padding: 1rem 0 2rem;
     }
 </style>
