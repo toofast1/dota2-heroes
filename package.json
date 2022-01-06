@@ -9,6 +9,7 @@
     "lint": "eslint --ignore-path .gitignore ."
   },
   "devDependencies": {
+    "@beyonk/svelte-google-analytics": "^2.2.0",
     "@sveltejs/adapter-netlify": "^1.0.0-next.25",
     "@sveltejs/kit": "next",
     "eslint": "^7.22.0",
