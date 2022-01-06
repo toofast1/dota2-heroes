@@ -93,10 +93,14 @@ import Swal from 'sweetalert2';
 </div>
 
 <div class="footer">
-    Copyright &copy; 2022. Made with <svg fill="#e74c3c" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"/></svg> in Bacău, Romania.
+    Copyright &copy; 2022. Made with <svg fill="#e74c3c" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24"><path d="M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z"/></svg> by Alex Shd.<br />
+    <small>Built with OpenDota API. Data from professional matches.</small>
 </div>
 
 <style>
+    small {
+        font-size: 11px;
+    }
     .heroes {
         display: flex;
         flex-wrap: wrap;
@@ -123,7 +127,7 @@ import Swal from 'sweetalert2';
     }
     .footer {
         font-family: Roboto, sans-serif;
-        font-size: 14px;
+        font-size: 16px;
         color: #FFF;
         text-align: center;
         padding: 2rem 0 4rem;
